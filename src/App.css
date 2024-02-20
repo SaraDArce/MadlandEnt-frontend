@@ -8,7 +8,45 @@
 .card {
   padding: 2em;
 }
+.container {
+  background-color: rgb(236, 247, 247);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 3px solid teal;
+  border-style: double;
+  row-gap: 20px;
+  justify-items: center;
+}
 
+#card {
+  background-color: whitesmoke;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  padding: 10px;
+  width: 350px;
+  text-align: left;
+  background-blend-mode: color-burn;
+}
+
+#card .image {
+  border: 1px solid #ddd;
+  box-shadow: -4px -4px 10px -5px;
+  border-radius: 4px;
+  height: auto;
+  float: right;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.description {
+  font-size: 0.7em;
+  padding: 5px 0;
+}
+
+.about {
+  background-color: skyblue;
+  height: 500%;
+}
 /* .logo {
   height: 6em;
   padding: 1.5em;

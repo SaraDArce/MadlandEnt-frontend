@@ -1,0 +1,24 @@
+#card {
+  background-color: whitesmoke;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  padding: 5px;
+  width: 250px;
+  text-align: left;
+  background-blend-mode: color-burn;
+}
+
+#card .image {
+  border: 1px solid #ddd;
+  box-shadow: -4px -4px 10px -5px;
+  border-radius: 4px;
+  height: auto;
+  float: right;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.description {
+  font-size: 0.7em;
+  padding: 5px 0;
+}

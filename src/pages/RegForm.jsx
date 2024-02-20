@@ -14,6 +14,7 @@ const RegForm = () => {
   const desRef = useRef(null);
   const passRef = useRef(null);
   const inqRef = useRef(null);
+  const imgRef = useRef(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -28,6 +29,7 @@ const RegForm = () => {
         description: desRef.current.value,
         password: passRef.current.value,
         inquiry: inqRef.current.value,
+        image: imgRef.current.value,
       };
       const response = await fetch(`${BASE_URL}/artists`, {
         method: "POST",
@@ -63,9 +65,11 @@ const RegForm = () => {
           <br />
           Description: <input type="text" ref={desRef} />
           <br />
-          Password: <input type="password" ref={passRef} />
+          Password: <input type="text" ref={passRef} />
           <br />
-          Inquiry <input type="inquiry" ref={inqRef} />
+          Inquiry <input type="text" ref={inqRef} />
+          <br />
+          Image <input type="text" ref={imgRef} />
           <br />
           <input type="submit" value="Create Artist" />
         </form>
