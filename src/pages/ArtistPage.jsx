@@ -24,11 +24,7 @@ const Artist = () => {
 
   return (
     <>
-      {artist}
-
       <div className="artistOnePager">
-        key={a._id}
-        style=
         {{
           border: "2px solid white",
           margin: "5px",

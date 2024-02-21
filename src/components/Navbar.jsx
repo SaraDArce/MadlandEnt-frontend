@@ -1,3 +1,32 @@
+// import React from "react";
+// // // import ButtonLink from "./ButtonLink";
+// import { Link } from "react-router-dom";
+// import "./Navbar.css";
+
+// const Navbar = () => {
+//   return (
+//     <nav className="navbar">
+//       <div className="container">
+//         <div className="logo">
+//           <Brand />
+//         </div>
+//         <div className="nav-elements">
+//           <ul>
+//             <li>
+//               <Link to="/about">About</Link>
+//             </li>
+//             <li>
+//               <Link to="/register">Register</Link>
+//             </li>
+//           </ul>
+//         </div>
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;
+
 import React from "react";
 // import ButtonLink from "./ButtonLink";
 import { Link } from "react-router-dom";

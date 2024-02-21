@@ -21,5 +21,14 @@ export default function Artist() {
     getArtist();
   }, []);
 
-  return <div id="card"></div>;
+  return (
+    <div id="card">
+      <div className="artistOnePager">
+        <img className="onePagerImage" src={artist.image} alt={artist.artist} />
+        <h2>{artist.artist}</h2>
+        <h4>{artist.description}</h4>
+        {/* <Link to={`/pages/bookinginquiryform`}>Inquire</Link> */}
+      </div>
+    </div>
+  );
 }
