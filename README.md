@@ -4,8 +4,9 @@ This is a web application for a live entertainment booking agency. It allows use
 
 ## Features
 
-- **Book Acts**: Users may inquire about booking their desired acts for their events.
+- **Book Acts**: Users may inquire about booking their desired acts for events.
 - **Browse Acts**: Users can browse artists
+- **View Videos**: Users can view artist videos prior to booking
 
 ## Stretch Features
 
@@ -20,6 +21,7 @@ This is a web application for a live entertainment booking agency. It allows use
 
 - **NPM**: Package manager for managing dependencies and scripts.
 - **React.js**: Frontend framework for building the user interface.
+- **Vite.js**: Next generation frontend tooling
 - **Node.js**: JavaScript runtime environment for building the backend server.
 - **Express.js**: Web application framework for Node.js to handle HTTP requests and routes.
 - **MongoDB**: NoSQL database for storing user data, act information, and bookings.
