@@ -1,4 +1,5 @@
 #navbar {
+  width: 100%;
   display: grid;
   background-color: rgb(201, 213, 213);
   border-bottom: solid white 15px;
@@ -45,7 +46,7 @@ a:hover {
   color: black;
 }
 
-#search-input {
+/* #search-input {
   padding: 5 0 0 0;
   width: 200px;
   height: 16px;
@@ -54,4 +55,4 @@ a:hover {
 #search-button {
   padding: 4px;
   border-radius: 5px;
-}
+} */

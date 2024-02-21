@@ -48,8 +48,8 @@ const RegForm = () => {
 
   return (
     <>
-      <h1>Register</h1>
-      <div>
+      <h4>Register</h4>
+      <div className="form">
         <form style={{ textAlign: "left" }} onSubmit={handleSubmit}>
           Artist: <input type="text" ref={artistRef} />
           <br />
@@ -106,7 +106,7 @@ const RegForm = () => {
               );
             })
           ) : (
-            <p>No artists found :/</p>
+            <p></p>
           )}
         </ul>
       </div>

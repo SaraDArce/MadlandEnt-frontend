@@ -22,7 +22,7 @@ export default function Artist() {
   }, []);
 
   return (
-    <div id="card">
+    <div>
       <div className="artistOnePager">
         <img className="onePagerImage" src={artist.image} alt={artist.artist} />
         <h2>{artist.artist}</h2>

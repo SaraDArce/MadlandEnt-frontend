@@ -7,8 +7,8 @@ This is a web application for a live entertainment booking agency. It allows use
 - **User Authentication**: Users can sign up, log in, and log out securely.
 - **Browse Acts**: Users can browse through a list of available entertainment acts.
 - **Search Functionality**: Users can search for specific acts based on different criteria (e.g., genre, location, availability).
-- **Book Acts**: Users can book their desired acts for their events.
-- **User Dashboard**: Users have a dashboard where they can manage their bookings, view past bookings, and update their profile information.
+- **Book Acts**: Users may inquire about booking their desired acts for their events.
+- **User Dashboard**: Users shall have a dashboard where they can manage their bookings, view past bookings, and update their profile information.
 - **Admin Panel**: Admin users have access to an admin panel where they can manage acts, users, bookings, and other site content.
 - **Responsive Design**: The website is optimized for various devices, including desktops, tablets, and mobile phones.
 

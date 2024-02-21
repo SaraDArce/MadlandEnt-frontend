@@ -43,7 +43,7 @@ const BookingForm = () => {
     <>
       <h2>Booking Inquiry</h2>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="form">
           <input type="text" ref={artistRef} placeholder="artist" />
           <input type="text" ref={nameRef} placeholder="name" />
           <input type="text" ref={phoneRef} placeholder="phone" />

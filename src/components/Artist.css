@@ -8,7 +8,7 @@
   background-blend-mode: color-burn;
 }
 
-#card .image {
+.image {
   border: 1px solid #ddd;
   box-shadow: -4px -4px 10px -5px;
   border-radius: 4px;
@@ -19,6 +19,7 @@
 }
 
 .description {
+  font: black;
   font-size: 0.7em;
   padding: 5px 0;
 }
