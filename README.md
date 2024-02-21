@@ -2,7 +2,7 @@
 
 This is a web application for a live entertainment booking agency. It allows users to browse and book live entertainment acts for various events.
 
-## Features
+## Stretch Features
 
 - **User Authentication**: Users can sign up, log in, and log out securely.
 - **Browse Acts**: Users can browse through a list of available entertainment acts.
