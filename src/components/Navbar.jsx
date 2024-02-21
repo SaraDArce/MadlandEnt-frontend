@@ -58,6 +58,8 @@ function Navbar(
           <Link to="/register">Register</Link>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <Link to="/bookingForm">Book</Link>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Link to="/gallery">Gallery</Link>
           {/* <Link to="/artists" onClick={resetChooseCategory}>
           Artists
         </Link> */}

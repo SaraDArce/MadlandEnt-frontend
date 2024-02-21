@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import BookingForm from "./pages/BookingForm";
-
+import Gallery from "./pages/Gallery";
 export default function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ export default function App() {
         <Route path="/register" element={<RegForm />} />
         <Route path="/about" element={<About />} />
         <Route path="/bookingForm" element={<BookingForm />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </div>

@@ -32,6 +32,15 @@
   justify-items: center;
 }
 
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 3px solid teal;
+  border-style: double;
+  row-gap: 20px;
+  justify-items: center;
+}
+
 #card {
   background-color: whitesmoke;
   border: 1px solid darkgrey;
