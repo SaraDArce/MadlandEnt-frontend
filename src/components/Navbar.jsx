@@ -1,3 +1,5 @@
+import React from "react";
+// import ButtonLink from "./ButtonLink";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -48,9 +50,9 @@ function Navbar({
       </div>
       <div id="nav-buttons">
         <Link to="/about">About</Link>&nbsp;&nbsp;
-        <Link to="/artists" onClick={resetChooseCategory}>
+        {/* <Link to="/artists" onClick={resetChooseCategory}>
           Artists
-        </Link>
+        </Link> */}
         {/* &nbsp;&nbsp;
         {localStorage.getItem("userId") ? (
           <Link onClick={logout} to="/">

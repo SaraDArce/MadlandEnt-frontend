@@ -21,7 +21,6 @@ const Artists = () => {
 
   return (
     <>
-      <h1>Madland Entertainment</h1>
       <div className="container">
         {artists.length ? (
           artists.map((a) => {
@@ -34,10 +33,14 @@ const Artists = () => {
                   padding: "10px",
                 }}
               >
-                <img className="image" src={a.image} alt={a.artist} />
-                <h4>{a.artist}</h4>
-                <p>{a.description}</p>
-                <Link to={`/artists/${a.artist}`}>Inquire</Link>
+                <div className="card">
+                  <img className="img" src={a.image} alt={a.artist} />
+                  <h4>{a.artist}</h4>
+                  <p>{a.description}</p>
+                  <button className="button">
+                    <Link to={`/artists/${a.artist}`}>Book</Link>
+                  </button>
+                </div>
               </div>
             );
           })

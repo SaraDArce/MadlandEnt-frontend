@@ -1,6 +1,6 @@
 #navbar {
   display: grid;
-  background-color: teal;
+  background-color: rgb(201, 213, 213);
   border-bottom: solid white 15px;
   opacity: 0.5;
   grid-template-columns: 15% 35% 35%;
@@ -14,7 +14,6 @@
   background-color: white;
   border-radius: 5px;
   padding: 4px;
-  border: solid white;
   color: white;
 }
 
@@ -29,10 +28,8 @@
 #navbar #logo a {
   justify-items: left;
   font-size: 40px;
-  font-weight: 540;
-  border: 3px solid white;
+  font-weight: 750px;
   border-radius: 5px;
-  background-color: green;
   padding: 8px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -57,8 +54,8 @@ a:hover {
 }
 
 #search-button {
-  width: 60px;
-  height: 30px;
+  /* width: 60px;
+  height: 30px; */
   padding: 4px;
   border: solid white;
   border-radius: 5px;

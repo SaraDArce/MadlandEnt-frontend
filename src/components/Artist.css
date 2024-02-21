@@ -1,5 +1,5 @@
 #card {
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
   border: 1px solid darkgrey;
   border-radius: 5px;
   padding: 5px;
@@ -21,4 +21,20 @@
 .description {
   font-size: 0.7em;
   padding: 5px 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff8533;
 }
