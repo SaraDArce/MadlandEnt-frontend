@@ -12,7 +12,7 @@ import BookingForm from "./pages/BookingForm";
 import Gallery from "./pages/Gallery";
 export default function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/artists/:artistName" element={<Artist />} />

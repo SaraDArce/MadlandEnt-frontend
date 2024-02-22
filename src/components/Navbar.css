@@ -1,32 +1,23 @@
 #navbar {
   width: 100%;
-  display: grid;
+  display: flex;
   background-color: rgb(201, 213, 213);
   border-bottom: solid white 15px;
   opacity: 0.5;
-  grid-template-columns: 15% 35% 35%;
-  justify-items: center;
-  align-items: center;
   padding: 20px;
   gap: 0 60px;
+  position: fixed;
+  top: 0;
 }
 
 #nav-buttons {
   background-color: white;
   border-radius: 5px;
-  padding: 4px;
+  padding: 3px;
   color: white;
 }
 
-.footer-buttons {
-  background-color: white;
-  border-radius: 5px;
-  /* height: 18px; */
-  border: solid white;
-  color: white;
-}
-
-#navbar #logo a {
+/* #navbar #logo a {
   justify-items: left;
   font-size: 40px;
   font-weight: 750px;
@@ -34,7 +25,7 @@
   padding: 8px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-}
+} */
 
 a {
   text-decoration: none;
